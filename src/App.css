@@ -1,0 +1,104 @@
+body {
+  background-color: white !important;
+}
+.fixedHeader{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+.section2 {
+  padding: 10px 10px 0px 10px;
+}
+.mainsection3,
+.mainsection4,
+.mainsection5,
+.mainsection6 {
+  padding: 10px 10px;
+}
+.loaderDiv {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+}
+.messagePadd {
+  padding-top: 10px;
+  font-size: 14px;
+}
+.btn-group button {
+  font-size: 12px;
+}
+.tableChartLoaderPad {
+  padding: 14px;
+}
+.commonBlueColortext {
+  color: #0e7cff !important;
+}
+.chartLoder {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.progressBar {
+  display: inline-block;
+  width: 30%;
+}
+.plstext {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+.commonError {
+  top: 50%;
+}
+.btn-light {
+  background-color: #f2f2f2 !important;
+  border: 1px solid #e0e0e0 !important;
+}
+.downloadIcon {
+  cursor: pointer;
+}
+.totalCountLable {
+  color: #adadad;
+  font-weight: bold;
+}
+.totalColDiv {
+  text-align: right;
+}
+.issprchart .headerlable div {
+  position: absolute;
+  top: 20px;
+  z-index: 9;
+  left: 35px;
+}
+.tableCol {
+  padding-bottom: 20px;
+}
+.tableViewmargin {
+  margin-bottom: 0px !important;
+}
+.decimalValeHide{
+  display: none;
+}
+.dnloadimg{
+  text-align: right;
+}
+.chartdata .c3 svg{
+  background: none !important;
+}
+.dwnlodall{
+  text-align: right;
+  padding-top: 10px;
+}
+.dwnlodall button{
+  font-size: 12px;
+  margin-right: 12px;
+}

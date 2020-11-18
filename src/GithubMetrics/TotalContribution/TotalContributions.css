@@ -1,0 +1,80 @@
+.totalcontribution > div {
+  margin-bottom: 10px;
+}
+.section3 {
+  background-color: white;
+  border-radius: 5px;
+}
+.issu,
+.pull,
+.con,
+.errorBorder {
+  border: 1px solid #e0e0e0;
+}
+.section3 .mainHeaderCont {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 9px 14px 4px 16px;
+}
+.section3 .mainHeaderCont .countVal {
+  padding-left: 8px;
+  color: #2f80ed;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section3 .mainHeaderCont .epandImg {
+  float: right;
+}
+.pullInfo {
+  font-size: 12px !important;
+  padding-left: 13px !important;
+}
+.section3 .contrsplit {
+  padding: 10px 14px 10px 16px;
+}
+.section3 .contrsplitloader {
+  padding: 10px 14px 0px 16px !important;
+}
+.section3 div span:first-child {
+  font-size: 16px;
+}
+.section3 div span:last-child {
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.contrsplit span:first-child {
+  float: left;
+  font-size: 16px;
+  color: black;
+}
+.contrsplit span:last-child {
+  float: right;
+}
+.labelcaption {
+  color: #000000;
+  font-size: 16px;
+}
+.contrsplit > div {
+  height: 60px;
+  text-align: center;
+}
+.progress {
+  height: 0.4rem !important;
+  border-radius: 4.25rem;
+}
+.loadercolor {
+  background: #f5f6f7;
+}
+.underline {
+  text-underline-position: auto;
+}
+/* .internalCBar, */
+.contbar {
+  background-color: #216cc6 !important;
+}
+.issuebar {
+  background-color: #6c63ff !important;
+}
+.prbar {
+  background-color: #315f75 !important;
+}

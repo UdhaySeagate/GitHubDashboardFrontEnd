@@ -1,0 +1,341 @@
+.expanDropDown .buttonbgcolor {
+  background-color: #e0e0e0 !important;
+  border: #e0e0e0;
+  border-radius: 4px;
+}
+.containerRepo .dropdown button {
+  background: #e0e0e0;
+  color: black;
+  border: #e0e0e0;
+}
+.containerRepo .picky__dropdown {
+  width: 210px;
+}
+.expanDropDown .picky__input::after {
+  color: black;
+}
+.containerRepo .dropdown-toggle::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: '';
+  right: 16px;
+  top: 14px;
+}
+.dropdown .btn-primary {
+  background-color: #e0e0e0 !important;
+  color: black !important;
+  border: #e0e0e0;
+}
+.chartype div {
+  display: inline-block;
+}
+.headersection {
+  border: 1px solid lightgray;
+  background-color: #e0e0e0;
+}
+.headersection Button {
+  font-size: 14px;
+  color: black;
+}
+.modal-dialog {
+  max-width: 90% !important;
+}
+.chartContainer {
+  border: 1px solid lightgray;
+  border-top: none;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.containerRepo {
+  border: 1px solid lightgray;
+  border-bottom: none;
+  margin-top: 15px;
+}
+.containerRepo .picky__input::after {
+  top: 13px;
+  border-top: 6px solid;
+}
+.expandRangeView {
+  margin-top: 2px !important;
+  padding-left: 0px !important;
+  margin-left: 10px;
+}
+.expandRangeView div {
+  margin-left: 30px;
+}
+.containerRepo .buttonbgcolor {
+  height: 33px;
+  width: 210px;
+}
+.containerRepo .dropdown-menu {
+  min-width: 0px !important;
+  width: 110px;
+}
+
+.chartype .dropdown-menu {
+  min-width: 0px !important;
+  width: 108px !important;
+}
+.containerRepo > div {
+  padding: 10px;
+}
+.dropdown button {
+  font-size: 14px;
+}
+.containerRepo .dropdown button {
+  width: 108px;
+  height: 33px;
+}
+
+.chartContainer > div {
+  padding-top: 10px;
+}
+.chartContainer {
+  border-top: 1px solid lightgray;
+}
+.expanDropDown span {
+  color: black;
+}
+.dropdown button {
+  text-align: inherit;
+}
+.viewas .dropdown-toggle::after {
+  margin-left: 1.7em !important;
+}
+.chartype .dropdown-toggle::after {
+  margin-left: 0.9em !important;
+}
+.viewBy .dropdown-toggle::after {
+  margin-right: -0.4em !important;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+.btn-underlineBtn {
+  border-bottom: 4px solid #0e7cff !important;
+}
+.expanDropDown div[data-testid='dropdown'] {
+  padding: 0px !important;
+}
+.daterangecalendar {
+  text-align: right;
+  padding-top: 13px !important;
+  margin-right: -12px;
+}
+label {
+  color: black;
+  font-size: 14px;
+}
+.downloadicon,
+.chartype {
+  text-align: right;
+}
+.chartype .repoCount {
+  margin-right: 15px;
+}
+.dropdown-menu a {
+  font-size: 14px;
+  padding-left: 10px;
+}
+.dropdown-item.active {
+  margin: 0px !important;
+  background-color: #e0e0e0 !important;
+  color: black !important;
+}
+.modal-header button span {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.pointershow {
+  cursor: pointer;
+}
+.chartDiv .c3-texts > .c3-text.remove {
+  fill-opacity: 0 !important;
+}
+
+.repoCount {
+  padding-top: 5px !important;
+  margin-right: -16px;
+}
+.repoCount span {
+  color: black;
+  text-align: left;
+}
+.totaHeade {
+  font-size: 14px;
+  font-weight: bold;
+}
+.totaCount {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0e7cff !important;
+}
+.range img {
+  margin-left: 15px;
+  margin-right: 4px;
+}
+.chartDiv .c3-text {
+  font-size: 9px;
+  font-weight: bold;
+}
+.chartDiv .c3-axis.c3-axis-x .tick text {
+  display: block !important;
+}
+.expandDate {
+  padding-right: 32px !important;
+  text-align: right;
+}
+.noteMessage span {
+  color: black;
+  font-size: 12px;
+}
+.noteMessage {
+  text-align: right;
+}
+.chartDiv .c3-axis-x-label {
+  transform: translate(0px, 22px);
+}
+.chartDiv .c3-legend-item {
+  transform: translate(0px, 10px);
+}
+.expandButton .btn:nth-child(n) {
+  border-right: 1px solid #8e8ca8;
+}
+.expandButton .btn:last-child {
+  border-right: none;
+  text-align: center;
+  padding-right: 40px;
+  margin-right: -36px;
+}
+.expandButton .btn:first-child {
+  margin-left: -16px;
+  /* margin-right: 6px; */
+}
+.expandButton .btn {
+  padding: 9px;
+  /* width:20%; */
+  /* overflow: hidden; */
+  /* white-space: nowrap; */
+  /* text-overflow: ellipsis; */
+}
+.dropdownwidth {
+  display: inline-block;
+  width: 90% !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: right;
+  white-space: nowrap;
+}
+
+#picky-option-selectall:focus {
+  outline: none !important;
+}
+.expanDropDown button:focus {
+  outline: 5px auto #0e7cff !important;
+}
+.chartDiv table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: -2px;
+  background-color: white;
+}
+.chartDiv td,
+.chartDiv th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  font-size: 12px;
+  padding: 2px;
+}
+.chartDiv th {
+  border: 1px solid darkgrey;
+}
+.alignValuetooltip {
+  text-align: center;
+}
+.chartDiv tr:first-child {
+  background-color: #dddddd;
+  font-size: 12px;
+  font-weight: bold;
+}
+.recordDate {
+  width: 70px;
+  justify-content: center !important;
+}
+.tooltipData {
+  background-color: #dddddd;
+  color: black !important;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid lightgray;
+  width: 100%;
+  display: inline-block;
+  border-bottom: none;
+  padding-left: 4px;
+}
+.boxcolor {
+  display: inline-block;
+  font-size: 10px;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+}
+.btn:focus {
+  outline: none !important;
+}
+.modal-header {
+  padding: 6px !important;
+  padding-right: 14px !important;
+}
+.modal-header button:focus {
+  outline: none !important;
+}
+
+.scrollDivset .picky__dropdown {
+  overflow: hidden !important;
+  padding-bottom: 55px;
+  max-height: 300px !important;
+}
+.scrollDivset .aplybtndivs {
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+  display: block;
+  width: calc(100% - 10px);
+  text-align: right;
+  padding: 0 10px 8px 0;
+  background: #fff;
+}
+.scrollDivset .picky__filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.scrollDivset div[data-testid='dropdown'] {
+  max-height: 300px;
+  overflow: auto;
+}
+.scrollDivset div[data-testid='dropdown'] {
+  max-height: calc(300px - 90px);
+  overflow: auto;
+  padding-bottom: 35px !important;
+}
+.scrollDivset .picky__filter + div {
+  margin-top: 40px;
+}
+.chartHeight {
+  height: 300px;
+}
+.chartContainer .c3-axis-y-label{
+  font-size: 14px;
+  font-weight: bold;
+}
+.chartContainer .dropdown button {
+  width: 108px;
+  height: 33px;
+}

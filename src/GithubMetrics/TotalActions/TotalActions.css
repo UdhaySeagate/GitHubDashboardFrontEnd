@@ -1,0 +1,107 @@
+.totalaction {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+.totalaction .row {
+  padding: 3px 12px 0px 4px;
+}
+.daystotalaction {
+  font-size: 12px !important;
+  text-align: right;
+  margin-bottom: -24px;
+  font-weight: bold;
+  margin-right: -12px;
+  float: right;
+}
+.totalaction .lasDay {
+  padding-bottom: 10px;
+}
+.totalaction span {
+  display: block;
+  color: black;
+  font-size: 16px;
+}
+.commentsDiv {
+  padding: 16px 8px 20px 10px;
+  margin-top: 9px;
+}
+.totalaction > div {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.commonPadicon {
+  /* margin-top: -8px; */
+  padding-top: 10px;
+}
+.imgactions {
+  width: 40px;
+  height: 40px;
+  float: right;
+  border-radius: 24px;
+  padding: 5px;
+}
+.clones {
+  background-color: #bf2600;
+}
+.relase {
+  background-color: #0647a6;
+}
+.commits {
+  background-color: #008ca6;
+}
+.merged {
+  background-color: #ff8b00;
+}
+.relase img {
+  padding: 3px 2px 0px 3px;
+}
+.clones img {
+  padding: 5px 4px 0px 3px;
+}
+.commits img {
+  padding-top: 4px;
+  margin-left: -1px;
+}
+.countValue {
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+.totalActionError {
+  padding: 16px;
+}
+.totalActionError > div {
+  padding: 2px;
+}
+.actionSecond {
+  margin-left: -20px;
+}
+.actionLoaderTop {
+  margin-top: -8px;
+}
+.totalaction .branch {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
+.totalaction .awaiting {
+  font-weight: bold;
+}
+.totalaction .branchColor {
+  color: #2f80ed;
+}
+.totalaction .cloneinfocont {
+  display: inline-flex;
+}
+.totalaction .cloneinfocont img {
+  margin: 3.5px 0 0 5px;
+}
+#TooltipExampleaction {
+  float: right;
+}
+.commentsDiv > div {
+  border: none;
+}
+.commentsprogress {
+  margin-left: -19px;
+}

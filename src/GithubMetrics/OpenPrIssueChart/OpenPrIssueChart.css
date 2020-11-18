@@ -1,0 +1,31 @@
+.openprissschart {
+  position: relative;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+}
+.total-count {
+  display: inline-block;
+  margin-right: 20px;
+}
+.openprissschart .totalCountLable {
+  color: #adadad;
+  font-weight: bold;
+  font-size: 16px;
+}
+.openprissschart .commonBlueColortext {
+  color: #0e7cff;
+  font-size: 16px;
+}
+.openprissschart .dropdown button {
+  width: 80px;
+  height: 33px;
+  font-size: 14px;
+}
+.openprissschart .dropdown-menu.show{
+  width: 80px;
+  min-width: 0;
+}
+.openprissschart .c3-axis.c3-axis-x > text{
+  transform: translate(0px, 15px);
+}

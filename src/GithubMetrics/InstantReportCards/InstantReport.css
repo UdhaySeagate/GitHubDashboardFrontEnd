@@ -1,0 +1,99 @@
+.instant {
+  padding: 20px 10px 10px 10px;
+}
+.cards-content {
+  padding: 18px;
+  border-radius: 5px;
+}
+.loaderchart {
+  float: right;
+  margin-top: -15px;
+}
+span {
+  color: white;
+  font-size: 16px;
+}
+.middleValue {
+  margin-bottom: -17px;
+}
+.middleValue span:first-child {
+  padding-top: 10px;
+}
+.middleValue span {
+  display: block;
+}
+.bold {
+  font-weight: bold;
+  font-size: 28px;
+}
+.card1 {
+  background-color: #6454c0;
+}
+.card2 {
+  background-color: #253858;
+}
+.card3 {
+  background-color: #35b37e;
+}
+.card4 {
+  background-color: #ffab00;
+}
+.card5 {
+  background-color: #de350a;
+}
+.card6 {
+  background-color: #8992a4;
+}
+.card7 {
+  background-color: #008ca6;
+}
+.card8 {
+  background-color: #00b8d9;
+}
+.carderror {
+  padding: 34px;
+  box-shadow: #f5f5f5 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.percentage {
+  padding-left: 5px;
+  font-size: 11px;
+}
+.carderror > div {
+  padding: 4px;
+}
+.errorAlign {
+  text-align: center;
+  overflow: hidden;
+  height: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.errorAlign .text {
+  max-width: 90px;
+}
+.errorFont {
+  font-size: 12px;
+  font-weight: bold;
+}
+.lastRow {
+  display: inline-block;
+}
+.daysrow {
+  text-align: right;
+  width: 100%;
+}
+.loaderchart svg {
+  height: 40px;
+  width: 80px;
+}
+.infocont {
+  display: inline-flex;
+}
+#TooltipExampleinfo {
+  margin: -1px 0 0 5px;
+}
+.dataShowtooltip {
+  font-size: 12px;
+}

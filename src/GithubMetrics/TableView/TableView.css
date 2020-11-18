@@ -1,0 +1,103 @@
+.react-bootstrap-table {
+  display: inline-block;
+  height: 230px !important;
+  overflow-x: auto;
+}
+.childTable .react-bootstrap-table {
+  height: 100% !important;
+}
+.boxshadowtable {
+  box-shadow: 0px 0px 6px 0px #ccc;
+}
+.react-bs-table-csv-btn {
+  display: none !important;
+}
+.childTable .react-bootstrap-table table {
+  margin-bottom: -1px;
+}
+.expand-cell-header {
+  visibility: hidden;
+}
+.headerFormatClass {
+  border-right: none;
+}
+.exportImgCol {
+  margin-left: -5px;
+}
+.tableviewcont .tablerow {
+  padding: 10px 10px 0px;
+}
+.tableheight .expand-cell {
+  padding: 5px;
+  border-right: none !important;
+}
+.tableheight table th {
+  font-size: 14px;
+}
+.tableFont {
+  font-weight: bold;
+}
+.tableheight table td {
+  font-size: 14px;
+  padding: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.react-bootstrap-table-pagination {
+  padding: 10px 10px 0px 10px;
+}
+.react-bootstrap-table-pagination div:first-child {
+  padding-top: 10px;
+}
+.tableheight span {
+  font-size: 12px;
+  color: black !important;
+}
+/* width */
+.tableheight ::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+.tableheight ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.tableheight ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+.tableheight ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.tableheight .totalSpan {
+  font-size: 15px;
+  color: #8e8ca8 !important;
+}
+.tableheight.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f6ff !important;
+}
+.react-bootstrap-table .row-expansion-style {
+  padding: 0px !important;
+}
+.header-class {
+  display: none;
+}
+.childTable tbody tr > td:first-child {
+  width: 227px;
+}
+.page-link {
+  font-size: 14px !important;
+  padding: 10px 8px !important;
+  line-height: 0.42857143 !important;
+}
+.page-item:nth-of-type(1):nth-last-of-type(1) {
+  visibility: hidden;
+}
+.hidecontent {
+  display: none;
+}
+.tableinfoicon img{
+  margin-bottom: 3px;
+}

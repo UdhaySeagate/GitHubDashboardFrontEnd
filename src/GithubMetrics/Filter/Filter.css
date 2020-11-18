@@ -1,0 +1,178 @@
+.filterDiv {
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px 0px 9px 0px #ccc;
+}
+.team {
+  margin-top: 5px;
+  text-align: right;
+}
+select {
+  border: none;
+  color: #2f80ed;
+  font-weight: bold;
+}
+.repo {
+  margin-top: 5px;
+}
+label {
+  padding-right: 10px;
+  font-size: 14px;
+}
+.ranges {
+  display: inline-block;
+}
+.viewRanges{
+  margin-right: 34px
+}
+.topfix{
+  padding-top:110px;
+}
+.dateClickView {
+  border: 1px solid #e0e0e0;
+  padding: 8px;
+  border-radius: 5px;
+  margin-right: 16px;
+  font-size: 12px !important;
+}
+.calendarIcon {
+  border-radius: 2px;
+  background-color: #0e7cff;
+  display: inline-block;
+  margin-right: -8px;
+  padding: 2px 9px 5px 8px;
+}
+.dateFont {
+  padding: 10px 10px;
+  font-size: 14px;
+}
+.daterange {
+  padding-right: 2px;
+  margin-right: 15px;
+}
+/* width */
+.scrollDivset ::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+.scrollDivset ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+.scrollDivset ::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+.scrollDivset ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.daterangepicker.opensright::before {
+  left: 180px !important;
+  display: none;
+}
+.daterangepicker.opensright:after {
+  left: 181px !important;
+  display: none;
+}
+.repoDropDown span {
+  color: black;
+}
+.buttonbgcolor {
+  background-color: #2f80ed !important;
+  color: white;
+  border-radius: 4px !important;
+}
+.repoDropDown button:focus {
+  outline: 5px auto #0e7cff !important;
+}
+.buttonbgcolor span {
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.picky__dropdown .option.selected,
+.picky__dropdown li.selected {
+  background-color: transparent !important;
+}
+div[data-testid='dropdown'] > div {
+  display: none;
+}
+.applyButtonClass {
+  padding: 10px;
+  text-align: right;
+}
+.btndisable {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: whitesmoke !important;
+}
+.btndisableWidth > div:first-child {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: lightblue !important;
+}
+.btndisable .buttonbgcolor {
+  cursor: not-allowed;
+  pointer-events: none;
+  background-color: lightblue !important;
+}
+.dateRangeHeader {
+  padding-top: 5px;
+  text-align: right;
+}
+.headerRange {
+  font-weight: bold;
+}
+.dateRangeHeader span {
+  font-size: 12px;
+  color: black;
+}
+.dateRangeHeader {
+  margin-right: -18px;
+}
+.filterDiv .dateRangeMain {
+  padding-left: 3px;
+  text-align: right;
+}
+.tableView button:first-child {
+  padding: 0px 20px 0px 20px;
+}
+
+.filterDiv .picky__dropdown {
+  overflow: hidden !important;
+  padding-bottom: 55px;
+}
+.filterDiv .aplybtndiv {
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+  display: block;
+  width: calc(100% - 10px);
+  text-align: right;
+  padding: 0 10px 8px 0;
+  background: #fff;
+}
+.filterDiv .picky__filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.filterDiv div[data-testid='dropdown'] {
+  max-height: 300px;
+  overflow: auto;
+}
+.filterDiv div[data-testid='dropdown'] {
+  max-height: calc(400px - 90px);
+  overflow: auto;
+  padding-bottom: 35px;
+}
+.scrollDivset .picky__filter + div {
+  margin-top: 40px;
+}
